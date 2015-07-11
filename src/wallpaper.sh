@@ -4,9 +4,9 @@
 #
 # To install as a Cron job that runs every hour:
 # crontab -e
-# * */1 * * * <path to this script file>
+# * */1 * * * <path to this script file> <path to the folder with wallpapers>
 
-FILES=/home/thomas/Pictures/wallpaper
+FILES="$1"
 LOG=/tmp/wallpaper.log
 
 # Change the wallpaper to a random .jpg file in the specified folder.
