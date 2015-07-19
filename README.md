@@ -7,7 +7,7 @@ Installation
 To install as a Cron job that runs every hour:
 
     crontab -e
-    * */1 * * * /<path>/wallpaper.sh
+    * */1 * * * /<path>/wallpaper.sh <path to the folder with wallpapers>
 
 Troubleshooting
 ---------------
